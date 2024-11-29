@@ -11,11 +11,9 @@ Search Functionality: Quickly find products with real-time search suggestions.
 🛠️ Tech Stack
 Frontend: React.js, Material-UI, Tailwind CSS
 State Management: Redux Toolkit
-Backend: (Add backend details if applicable, e.g., Node.js, Express, Firebase, etc.)
-API Integration: (Mention any third-party APIs if used)
+API Integration: ( https://fakestoreapi.com/)
+
 🚀 Getting Started
-Prerequisites
-Ensure you have Node.js and npm or yarn installed.
 
 Installation
 bash
@@ -40,3 +38,49 @@ Azeem pasha
 
 📄 License
 This project is licensed under the MIT License.
+
+
+
+
+## 📂 Project Structure
+
+```plaintext
+📦 Project-Name
+├── 📂 dist                 # Build output directory
+├── 📂 node_modules         # Project dependencies
+├── 📂 public               # Static files
+├── 📂 src                  # Source code
+│   ├── 📂 assets           # Assets like images, icons
+│   │   ├── 📂 components   # Reusable components
+│   │   │   ├── 📂 footer
+│   │   │   │   └── footer.jsx
+│   │   │   └── 📂 navbar
+│   │   │       └── navbar.jsx
+│   ├── 📂 reduxToolkit     # Redux store setup
+│   │   ├── slices.js       # Reducers and actions
+│   │   └── store.js        # Redux store configuration
+│   ├── 📂 pages            # Pages of the application
+│   │   ├── 📂 cardItems
+│   │   │   └── addToCard.jsx
+│   │   ├── 📂 products
+│   │   │   ├── productDetail.jsx
+│   │   │   └── products.jsx
+│   │   ├── 📂 users
+│   │   │   ├── login.jsx
+│   │   │   ├── signup.jsx
+│   │   │   └── homepage.jsx
+│   ├── 📂 ui               # UI-specific components
+│   ├── App.jsx             # Main app component
+│   ├── index.css           # Global CSS
+│   └── main.jsx            # Entry point
+├── .gitignore          
+├── eslint.config.js        # Linting configuration
+├── index.html              # HTML template
+├── notes.md                # Project notes
+├── package-lock.json       # Dependency lock file
+├── package.json            # Project metadata and scripts
+├── postcss.config.js       # PostCSS configuration
+├── PRD.md                  # Product Requirements Document
+├── tailwind.config.js      # Tailwind CSS configuration
+└── vite.config.js          # Vite configuration file
+
