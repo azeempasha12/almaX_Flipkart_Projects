@@ -84,3 +84,6 @@ This project is licensed under the MIT License.
 ├── tailwind.config.js      # Tailwind CSS configuration
 └── vite.config.js          # Vite configuration file
 
+
+## Google Docs Link
+https://docs.google.com/document/d/1Hp6AeuwqoS81SUHclCO1KSZar05W9PeTocaw7hgcBTE/edit?usp=drive_link
